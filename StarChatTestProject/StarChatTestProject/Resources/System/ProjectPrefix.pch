@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  StarChatTestProject
+//
+//  Created by rost on 19.11.14.
+//  Copyright (c) 2014 rost. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "DB.h"
+#endif
